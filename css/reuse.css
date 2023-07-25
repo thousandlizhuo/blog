@@ -1,0 +1,82 @@
+.warp{
+    width: 1280px;
+    background-color: #fffdf7;
+    margin: 0 auto;
+}
+header{
+    width: 1280px;
+    height: 75px;
+}
+header .header_inner{
+    width: 982px;
+    height: 75px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header_inner .header_inner_left{
+    width: 92px;
+    height: 75px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #a2a2a2;
+}
+.header_inner .header_inner_center{
+    width: 322px;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header_inner .header_inner_center a{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.header_inner .header_inner_right{
+    width: 60px;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 75px;
+}
+.button_img{
+    width: 1280px;
+    height: 169px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 82px;
+}
+.button{
+    width: 1280px;
+    height: 223px;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.button .button_left b{
+    font-size: 17px;
+    font-weight: bold;
+}
+.button .button_center img{
+    width: 327px;
+    height: 78px;
+}
+.button .button_right{
+    width: 131px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+.button .button_right .button_right1{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: #a5a5a5;
+    border: 1px solid #d8bfae;
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+}
